@@ -3,6 +3,11 @@
 This plugin provides authentication based on a http header  (default: X_Forwarded_User). 
 The authenticator will fall back to the default Confluence authenticator, so everything external should keep working as expected. 
 
+WARNING: This plugin is currently not actively developed or maintained. 
+It was created for an organisation that no longer does or uses FOSS, so it was moved. 
+Feel free to use it at your own risk, or to fork and improve it. 
+I hope it is helpful anyway.
+
 ## License 
 
 This software is distributed under the GNU Lesser General Public License 2.1. See COPYING for details. 
