@@ -1,4 +1,4 @@
-package ch.bielbienne.confluence;
+package ch.fuchsnet.confluence;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,7 +11,7 @@ import java.security.Principal;
 
 
 /*
-Biel Bienne Authenticator russo-confluence: 
+Remote User Single Sign On Authenticator russo-confluence: 
 Authenticating to Confluence with the X_Forwarded_User HTTP header
 Copyright (C) 2014  Christian Loosli
 
@@ -36,7 +36,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  * @author Christian Loosli
  *
  */
-public class BielBienneConfluenceAuthenticator extends ConfluenceAuthenticator
+public class RussoConfluenceAuthenticator extends ConfluenceAuthenticator
 {
 
 	// Header we read. Has to be lowercase even if the header is set uppercase in apache
